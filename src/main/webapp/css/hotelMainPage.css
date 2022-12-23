@@ -1,0 +1,102 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap')
+	;
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+body{
+	width:100%;
+	height : 100%;
+/* 	background-color: lightblue; */
+	position: relative;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	/*     background-color: gray; */
+}
+
+header .innerbox {
+	width: 100%;
+	height: 100px;
+/* 	background-color: blue;  */
+	margin: 0 auto;
+	position: relative;
+	border-bottom: 2px solid black;
+	
+}
+
+header .innerbox div {
+	cursor: pointer;
+	float: right;
+	margin: 0 50px 0 10px;
+	line-height: 100px;
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+
+	
+}
+
+header .innerbox input {
+	width: 120px;
+	height: 80px;
+	background-color: white;
+	border: white;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+header .innerbox .Logo {
+	font-size: 20px;
+	position: absolute;
+	width: 300px;
+	height: 100px;
+}
+
+header .innerbox .Logo input {
+	width: 150px;
+}
+
+header .innerbox input:hover {
+	color: red;
+	cursor: pointer;
+}
+
+
+.container{
+	position : relative;
+}
+
+.slider {
+	width: 100%;
+	height: 750px;
+/* 	background-color: aqua; */
+/* 	margin: 0 auto; */
+/* 	margin-top:10px; */
+}
+
+.slider .item {
+	height: 100%;
+	overflow: hidden;
+}
+
+.slider .item img {
+	width: 100%;
+	height: 80vh;
+}
+
+
+footer {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	
+}
